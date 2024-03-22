@@ -7,6 +7,10 @@
   --mainland-theme-color: #442222;
   --mainland-theme-color-bright: #aa7777;
   --mainland-theme-color-brighter: #ddaaaa;
+
+  --chartland-theme-color: #222244;
+  --chartland-theme-color-bright: #7777aa;
+  --chartland-theme-color-brighter: #aaaadd;
 }
 
 /* Global Styles */
@@ -105,6 +109,24 @@ app-mainland-top-bar h1 {
   margin: 0;
 }
 
+app-chartland-top-bar {
+  width: 100%;
+  height: 68px;
+  position: relative;
+  top: 0;
+  background-color: var(--chartland-theme-color);
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+app-chartland-top-bar h1 {
+  color: white;
+  margin: 0;
+}
+
 /* Bottom Bar */
 
 app-mainland-bottom-bar {
@@ -121,8 +143,29 @@ app-mainland-bottom-bar {
   align-items: center;
 }
 
+app-chartland-bottom-bar {
+  width: 100%;
+  height: 44px;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  background-color: var(--chartland-theme-color);
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Main Views */
+
 app-mainland {
 }
+
+app-chartland {
+}
+
+/* Products */
 
 app-product-list, app-product-details, app-cart, app-shipping {
   padding-left: 20px;
@@ -154,4 +197,12 @@ app-product-list, app-product-details, app-cart, app-shipping {
   margin-bottom: 8px;
   border-radius: 2px;
   background-color: #EEEEEE;
+}
+
+/* Basic Simple Charts */
+
+app-basic-simple {
+  padding-top: 20px;
+  display: inline-block;
+  position: relative;
 }
