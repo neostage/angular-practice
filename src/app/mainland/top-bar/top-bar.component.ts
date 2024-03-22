@@ -2,7 +2,7 @@ import { Component } from '@angular/core'
 import { RouterLink } from '@angular/router'
 
 @Component({
-  selector: 'app-top-bar',
+  selector: 'app-mainland-top-bar',
   standalone: true,
   imports: [
     RouterLink,

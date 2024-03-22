@@ -1,7 +1,7 @@
 import { Component } from '@angular/core'
 
 @Component({
-  selector: 'app-bottom-bar',
+  selector: 'app-mainland-bottom-bar',
   standalone: true,
   imports: [],
   templateUrl: './bottom-bar.component.html',

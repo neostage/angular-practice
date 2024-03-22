@@ -4,9 +4,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --theme-color: #442222;
-  --theme-color-bright: #aa7777;
-  --theme-color-brighter: #ddaaaa;
+  --mainland-theme-color: #442222;
+  --mainland-theme-color-bright: #aa7777;
+  --mainland-theme-color-brighter: #ddaaaa;
 }
 
 /* Global Styles */
@@ -24,7 +24,7 @@ body {
 
 a {
   cursor: pointer;
-  color: var(--theme-color);
+  color: var(--mainland-theme-color);
   text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ label {
   border-radius: 2px;
   font-size: 14px;
   cursor: pointer;
-  background-color: var(--theme-color);
+  background-color: var(--mainland-theme-color);
   color: white;
   border: none;
 }
@@ -77,22 +77,22 @@ label {
 
 .fancy-button {
   background-color: white;
-  color: var(--theme-color);
+  color: var(--mainland-theme-color);
 }
 
 .fancy-button i.material-icons {
-  color: var(--theme-color);
+  color: var(--mainland-theme-color);
   padding-right: 4px;
 }
 
 /* Top Bar */
 
-app-top-bar {
+app-mainland-top-bar {
   width: 100%;
   height: 68px;
   position: relative;
   top: 0;
-  background-color: var(--theme-color);
+  background-color: var(--mainland-theme-color);
   padding: 16px;
   display: flex;
   flex-direction: row;
@@ -100,20 +100,20 @@ app-top-bar {
   align-items: center;
 }
 
-app-top-bar h1 {
+app-mainland-top-bar h1 {
   color: white;
   margin: 0;
 }
 
 /* Bottom Bar */
 
-app-bottom-bar {
+app-mainland-bottom-bar {
   width: 100%;
   height: 44px;
   position: absolute;
   bottom: 0;
   color: white;
-  background-color: var(--theme-color);
+  background-color: var(--mainland-theme-color);
   padding: 16px;
   display: flex;
   flex-direction: row;
@@ -134,7 +134,7 @@ app-product-list, app-product-details, app-cart, app-shipping {
 .product-list-item {
   padding: 10px 15px 15px 10px;
   margin: 10px;
-  background: var(--theme-color-brighter);
+  background: var(--mainland-theme-color-brighter);
 }
 
 .product-list-item h3 {

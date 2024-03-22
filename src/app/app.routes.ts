@@ -11,9 +11,9 @@ export const routes: Routes = [
     component: MainlandComponent,
     children: [
       { path: '', redirectTo: 'products', pathMatch: 'full' }, // Redirect to 'products'
-      { path: 'cart', component: CartComponent },
       { path: 'products', component: ProductListComponent },
       { path: 'products/:productId', component: ProductDetailsComponent },
+      { path: 'cart', component: CartComponent },
       { path: 'shipping', component: ShippingComponent },
     ],
   },
